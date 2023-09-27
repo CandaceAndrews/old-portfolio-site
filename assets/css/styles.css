@@ -47,6 +47,7 @@ body {
     font-family: var(--font-family);
 }
 
+/* NAV */
 nav {
     position: sticky;
     top: 0;
@@ -91,6 +92,7 @@ nav ul li {
     display: none;
 }
 
+/* HERO */
 .hero {
     display: flex;
     align-items: center;
@@ -108,8 +110,10 @@ nav ul li {
     max-height: 25.5rem;
     width: auto;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
+/* BIO */
 .bio {
     width: 25rem;
     padding: 0.625rem;
@@ -124,4 +128,20 @@ nav ul li {
 .bio p {
     line-height: var(--line-height);
     padding: 0.3rem 0;
+}
+
+/* MORE ABOUT */
+.more-about {
+    background-color: var(--bg-color);
+    padding: 1rem 6rem;
+}
+
+.more-about h2 {
+    margin-bottom: var(--bottom-margin);
+    text-align: center;
+}
+
+.more-about p {
+    line-height: var(--line-height);
+    padding: 0.4rem;
 }
