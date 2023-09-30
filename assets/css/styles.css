@@ -229,6 +229,38 @@ nav ul li {
     margin: 10px;
 }
 
+
+/* --- Art Gallery --- */
+.artwork {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.artwork-header {
+    margin-bottom: 1rem;
+}
+
+.artwork-wrapper img {
+    padding: 1.25rem;
+}
+
+/* --- ArtIcon --- */
+.articon {
+    width: 11.875rem;
+    height: 11.25rem;
+}
+
+.articon-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+    padding: 20px;
+    margin: 10px;
+}
+
+
 /* --- Contact Form --- */
 .contact {
     margin-top: 2rem;
@@ -364,6 +396,7 @@ height: 3rem;
 }
 
 
+/* ------------------------------------------- */
 
 
 /* Media queries for responsiveness */
