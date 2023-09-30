@@ -67,4 +67,24 @@ const closeLightboxButton = document.querySelector(".close-lightbox");
 closeLightboxButton.addEventListener("click", closeLightbox);
 
 
+// JavaScript for Artwork Lightbox
+const artworkThumbnails = document.querySelectorAll(".articon-card");
+const artworkLightbox = document.querySelector("#artwork-lightbox");
+const artworkLightboxImage = artworkLightbox.querySelector(".lightbox-image");
+
+function openArtworkLightbox(event) {
+    event.preventDefault();
+    const imageUrl = this.getAttribute("src");
+    artworkLightboxImage.setAttribute("src", imageUrl);
+    artworkLightbox.style.display = "block";
+}
+
+function closeArtworkLightbox() {
+    artworkLightbox.style.display = "none";
+}
+
+artworkThumbnails.forEach((thumbnail) => {
+    thumbnail.addEventListener("click", openArtworkLightbox);
+});
+
 

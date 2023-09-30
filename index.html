@@ -171,6 +171,14 @@
                 </p>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/MRSriTXK2hY?si=PacqYp6d3OQEUZPo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
+                <!-- Project Lightbox -->
+                <div class="lightbox">
+                    <div class="lightbox-buttons">
+                        <span class="close-lightbox" onclick="closeLightbox()">&times;</span>
+                    </div>
+                    <img class="lightbox-image" src="" alt="Project Image">
+                </div>
+
             </div>
         </section>
 
@@ -220,6 +228,12 @@
                     loading="lazy"
                     class="articon articon-card"
                 />
+                </div>
+
+                <!-- Lightbox Container -->
+                <div class="lightbox" id="artwork-lightbox">
+                    <span class="close-lightbox" onclick="closeArtworkLightbox()">&times;</span>
+                    <img class="lightbox-image" src="" alt="Artwork Image">
                 </div>
             </div>
         </section>
@@ -330,15 +344,6 @@
         <!-- Ion icons scripts -->
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    
-        <!-- HTML for Lightbox -->
-        <div class="lightbox">
-            <div class="lightbox-buttons">
-                <span class="close-lightbox" onclick="closeLightbox()">&times;</span>
-            </div>
-            <img class="lightbox-image" src="" alt="Project Image">
-        </div>
-
 
     </body>
 </html>

@@ -361,7 +361,7 @@ height: 3rem;
 }
 
 
-/* CSS for Lightbox */
+/* CSS for Prject Lightbox */
 .lightbox {
     display: none;
     position: fixed;
@@ -394,6 +394,7 @@ height: 3rem;
     max-width: 90%;
     max-height: 90%;
 }
+
 
 
 /* ------------------------------------------- */
