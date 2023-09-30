@@ -185,6 +185,7 @@ nav ul li {
 .project-pic {
     width: 65%;
     height: 60%;
+    border: 4px solid var(--primary-color);
 }
 
 .projects-container {
@@ -361,12 +362,12 @@ nav ul.show {
 }
 
 .hero img {
-    height: 37.5rem;
-    width: 30rem;
+    height: auto;
+    width: 20rem;
 }
 
 .bio {
-    margin-top: -7rem;
+    margin-top: 1rem;
     width: 20.5rem;
 }
 
