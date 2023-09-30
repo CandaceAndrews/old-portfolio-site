@@ -216,7 +216,9 @@ nav ul li {
 }
 
 .project-details {
-    margin-bottom: var(--bottom-margin);
+    margin-bottom: 3rem;
+    background-color: #dbe9d4;
+    border-radius: 10px;
 }
 
 .project-card {
