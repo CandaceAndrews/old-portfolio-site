@@ -137,12 +137,14 @@
             <h2 class="projects-title">Some of my Recent Projects</h2>
             <div class="projects-container">
                 <div class="project-container project-card">
-                <img
-                    src="assets/images/WeatherApp.png"
-                    alt="expense-tracker"
-                    loading="lazy"
-                    class="project-pic"
-                />
+                    <a href="assets/images/WeatherApp.png" class="project-image-link">
+                        <img
+                            src="assets/images/WeatherApp.png"
+                            alt="Animal Collecting Weather App"
+                            loading="lazy"
+                            class="project-pic"
+                        />
+                    </a>
                 <h3 class="project-title">Animal Collecting Weather App</h3>
                 <p class="project-details">
                     Weather app that gamifies weather by allowing users to catch animals according to the day's weather.
@@ -151,12 +153,14 @@
                 <a href="#" target="_blank" class="project-link">Check it Out</a>
                 </div>
                 <div class="project-container project-card">
-                <img
-                    src="assets/images/DinoFighter.png"
-                    alt="netflic-clone"
-                    loading="lazy"
-                    class="project-pic"
-                />
+                    <a href="assets/images/DinoFighter.png" class="project-image-link">
+                        <img
+                            src="assets/images/DinoFighter.png"
+                            alt="Dinosaur Fighting Pygame"
+                            loading="lazy"
+                            class="project-pic"
+                        />
+                    </a>
                 <h3 class="project-title">Dino Fighter Pygame</h3>
                 <p class="project-details">
                     Dinosaur fighting game recreating the classic arcade game 'Primal Rage'.
@@ -165,7 +169,7 @@
                 <a href="#" target="_blank" class="project-link">Check it Out</a>
                 </div>
             </div>
-            </section>
+        </section>
 
         <!-- Contact section -->
         <section class="contact" id="contact">
@@ -271,5 +275,15 @@
         <!-- Ion icons scripts -->
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+        <!-- HTML for Lightbox -->
+        <div class="lightbox">
+            <div class="lightbox-buttons">
+                <span class="close-lightbox" onclick="closeLightbox()">&times;</span>
+            </div>
+            <img class="lightbox-image" src="" alt="Project Image">
+        </div>
+
+
     </body>
 </html>

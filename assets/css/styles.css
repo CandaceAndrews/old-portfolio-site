@@ -326,6 +326,44 @@ width: 3rem;
 height: 3rem;
 }
 
+
+/* CSS for Lightbox */
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+    overflow: auto;
+    text-align: center; /* Center the content vertically and horizontally */
+}
+
+/* Add a container for the close and back buttons */
+.lightbox-buttons {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.close-lightbox {
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.lightbox-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+
+
+
 /* Media queries for responsiveness */
 @media screen and (max-width: 720px) {
 nav {
@@ -420,3 +458,4 @@ nav ul.show {
     max-width: 17.75rem;
 }
 }
+
