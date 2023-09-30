@@ -476,6 +476,12 @@ nav ul.show {
     width: 20.875rem;
 }
 
+.project-iframe {
+    width: 100%; /* Make the iframe responsive to the container's width */
+    max-width: 100%; /* Ensure it doesn't exceed the container's width */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+}
+
 .contact-form-container {
     max-width: 23.75rem;
 }
