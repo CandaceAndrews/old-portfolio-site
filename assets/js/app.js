@@ -31,7 +31,7 @@ behavior: "smooth",
 });
 
 
-// JavaScript for Lightbox
+// JavaScript for Project Lightbox
 
 // Function to open the lightbox
 function openLightbox(event) {

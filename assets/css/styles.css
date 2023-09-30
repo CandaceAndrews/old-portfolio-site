@@ -136,6 +136,7 @@ nav ul li {
 }
 
 .more-about h2 {
+    padding-top: 2rem;
     margin-bottom: var(--bottom-margin);
     text-align: center;
 }
@@ -258,8 +259,12 @@ nav ul li {
     box-shadow: 0 3px 10px var(--secondary-shadow);
     padding: 20px;
     margin: 10px;
+    
 }
 
+.articon-card:hover {
+    cursor: pointer; /* Change cursor to a hand on hover */
+}
 
 /* --- Contact Form --- */
 .contact {
