@@ -232,24 +232,24 @@ nav ul li {
 
 /* --- Art Gallery --- */
 .artwork {
-    max-width: 68.75rem;
+    max-width: 100.75rem;
     margin: auto;
     text-align: center;
     margin-top: 2.5rem;
 }
 
 .artwork-header {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .artwork-wrapper img {
-    padding: 1.25rem;
+    padding: 1rem;
 }
 
 /* --- ArtIcon --- */
 .articon {
-    width: 11.875rem;
-    height: 11.25rem;
+    width: auto;
+    height: 15rem;
 }
 
 .articon-card {
@@ -263,7 +263,7 @@ nav ul li {
 
 /* --- Contact Form --- */
 .contact {
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 
 .contact h2 {
