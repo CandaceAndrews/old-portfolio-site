@@ -86,5 +86,3 @@ function closeArtworkLightbox() {
 artworkThumbnails.forEach((thumbnail) => {
     thumbnail.addEventListener("click", openArtworkLightbox);
 });
-
-
